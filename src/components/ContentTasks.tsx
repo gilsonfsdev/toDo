@@ -93,7 +93,9 @@ const ContentTasks = () => {
       <main>  
         <header className={styles.header}>
           <p>Tarefas criadas <span>{howManyTasks} </span></p>
-          <p>Concluídas <span>{selectedTasks.length}</span> de <span>{howManyTasks}</span></p>
+          {howManyTasks > 0 ? 
+          (<p>Concluídas <span>{selectedTasks.length}</span> de <span>{howManyTasks}</span></p>) 
+          :(<span>{howManyTasks}</span>) }
         </header>
           {tasks.length > 0 ? tasks.map((task) => {
             return (

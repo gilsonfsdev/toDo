@@ -67,6 +67,10 @@
   transition: all .3s ease-in-out;
 }
 
+.checkbox-label:before hover {
+  border-color: var(--blue-dark);
+}
+
 .checkbox:checked + .checkbox-label:before {
   /* Estilos para o círculo do input checkbox quando marcado */
   background: var(--purple-dark);
