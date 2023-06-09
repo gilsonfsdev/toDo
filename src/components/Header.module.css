@@ -1,0 +1,20 @@
+.header{
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;  
+}
+
+.header div {
+  display: flex;
+  gap: .7rem;
+}
+
+.header img {
+  height: 2.5rem;
+}
+
+.header img + img {
+  height: 2rem;
+}

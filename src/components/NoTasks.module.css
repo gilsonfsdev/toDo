@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400) ;
+  gap: 1rem;
+  padding: 4rem 1.5rem;
+}
+
+.strong{
+  font-weight: bold;
+}
