@@ -20,8 +20,8 @@ A aplicação é um clássico muito bem executado. Nela é possível criar, visu
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - HTML;
-- Tailwind;
-- JavaScript;
-- Next;
+- CSS-Modules;
+- TypeScript;
+- Vite;
 ---
 
